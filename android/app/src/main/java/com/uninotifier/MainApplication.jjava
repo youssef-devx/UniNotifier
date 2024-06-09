@@ -1,0 +1,14 @@
+// import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
+
+public class MainApplication extends ReactApplication {
+  @Override
+  protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+      // new RNBackgroundFetchPackage(),
+      new MainReactPackage(),
+      // new NotificationSoundsPackage()
+    );
+  }
+}
+
+import com.reactlibrary.NotificationSoundsPackage;

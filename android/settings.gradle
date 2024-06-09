@@ -2,3 +2,9 @@ rootProject.name = 'UniNotifier'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
+
+// include ':react-native-notification-sounds'
+// project(':react-native-notification-sounds').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-notification-sounds/android')
+
+// include ':react-native-background-fetch'
+// project(':react-native-background-fetch').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-fetch/android')
